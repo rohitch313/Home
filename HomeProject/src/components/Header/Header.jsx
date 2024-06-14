@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faFacebook, faPinterestP, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faMagnifyingGlass, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+
 import style from "../Header/Header.module.css"
 
 
