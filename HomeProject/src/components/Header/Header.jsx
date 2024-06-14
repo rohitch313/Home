@@ -17,7 +17,7 @@ const Header = () => {
             <FontAwesomeIcon className={style.FontAwesomeIcon} icon={faPinterestP} />
             <FontAwesomeIcon className={style.FontAwesomeIcon} icon={faInstagram} />
           </div>
-          <div className="center">
+          <div className={style.center}>
             <div className="offer">
               <aside className="call">
                 <img src="Assests/photos/call_icon.png" alt="" />
