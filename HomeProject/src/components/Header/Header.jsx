@@ -4,6 +4,7 @@ import { faTwitter, faFacebook, faPinterestP, faInstagram } from '@fortawesome/f
 import { faMagnifyingGlass, faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import style from "../Header/Header.module.css"
 
+
 const Header = () => {
   return (
     <>
@@ -47,7 +48,7 @@ const Header = () => {
       </section>
 
       <section className={style.navBarSection}>
-        <div className="navBar container d-flex justify-content-center">
+        <div className={` container d-flex justify-content-center ${style.navBar}`}>
           <div className={style.navBarContent}>
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
@@ -155,7 +156,7 @@ const Header = () => {
 
                     <div className={style.searchIconDiv}>
                       <div className={style.searchIcon}>
-                        <FontAwesomeIcon icon={faMagnifyingGlass} />
+                        <FontAwesomeIcon className={style.serach_Icon} icon={faMagnifyingGlass} />
                       </div>
                     </div>
 
