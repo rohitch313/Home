@@ -6,16 +6,16 @@ import { faMagnifyingGlass, faCartShopping } from '@fortawesome/free-solid-svg-i
 const Header = () => {
   return (
     <>
-      <section className={`container ${style.details}`}>
+      <section className={`container ${style.detail}`}>
         <div className="container d-flex justify-content-center">
-          <div className="logo-div">
-            <img className="logo" src="Assests/photos/logo.png" alt="logo" />
+          <div className={style.logo - div}>
+            <img className={style.logo} src="Assests/photos/logo.png" alt="logo" />
           </div>
-          <div className="icon">
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faPinterestP} />
-            <FontAwesomeIcon icon={faInstagram} />
+          <div className={style.icon}>
+            <FontAwesomeIcon className={style.FontAwesomeIcon} icon={faTwitter} />
+            <FontAwesomeIcon className={style.FontAwesomeIcon} icon={faFacebook} />
+            <FontAwesomeIcon className={style.FontAwesomeIcon} icon={faPinterestP} />
+            <FontAwesomeIcon className={style.FontAwesomeIcon} icon={faInstagram} />
           </div>
           <div className="center">
             <div className="offer">
