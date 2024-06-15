@@ -8,7 +8,7 @@
 
 .ourIntroduction,
 .subHeading {
-  font-family: var(--fontFamily-grace);
+  font-family: var(--special-heading-font);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
