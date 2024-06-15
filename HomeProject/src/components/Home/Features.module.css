@@ -19,8 +19,8 @@
   box-shadow: 0px 0px 60px 10px #0000001A;
 }
 
-.headline {
-  font-family: var(--fontFamily-grace);
+.featureBox .headline {
+  font-family: var(--special-heading-font);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -32,7 +32,7 @@
 
 }
 
-.description {
+.featureBox .description {
   font-family: var(--default-font);
   font-size: 16px;
   font-weight: 800;
@@ -44,7 +44,7 @@
 
 }
 
-img {
+.feature img {
   width: 70px;
   height: 80px;
   padding: 2px 0px 16px 0px;

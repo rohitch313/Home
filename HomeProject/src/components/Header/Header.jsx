@@ -54,14 +54,14 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className={`collapse navbar-collapse ${style.navbarSupportedContent}`} id="navbarSupportedContent">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
 
-                    <li className="nav-item">
-                      <a className="nav-link" href="Pages/index.html">Home</a>
+                    <li className="nav-item" >
+                      <a className="nav-link active" href="Pages/index.html"   >Home</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="Pages/about.html">About</a>
+                      <a className="nav-link " href="Pages/about.html">About</a>
                     </li>
 
                     <li className="nav-item dropdown">
@@ -163,7 +163,7 @@ const Header = () => {
 
                     <div className={style.shopCart}>
                       <FontAwesomeIcon className={style.icon} icon={faCartShopping} />
-                      <sup><a href="#">0</a></sup>
+                      <sup><a style={{ color: "white" }} href="#">0</a></sup>
                     </div>
                   </ul>
                 </div>

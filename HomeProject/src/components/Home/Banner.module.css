@@ -68,7 +68,7 @@
 
 
 .agricultureTxt .heading {
-  font-family: var(--fontFamily-grace);
+  font-family: var(--special-heading-font);
   font-size: 96px;
   font-weight: 400;
   line-height: 44px;
