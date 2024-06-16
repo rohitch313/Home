@@ -1,15 +1,15 @@
-.card {
+.serviceCard {
   border: none;
 }
 
- .cardImg {
+ .serviceCard .cardImg {
   width: 100% !important;
   height: 330px !important;
   border-radius: 10px !important;
   object-fit: cover !important;
 }
 
-.icon1 {
+.serviceCard .icon {
   background-color: #C5CE38;
   padding: 5px 8px 5px 8px;
   width: 33%;
@@ -18,7 +18,7 @@
   width: 45%;
 }
 
-.about {
+.serviceCard .about {
   box-shadow: 0px 10px 30px 0px #00000012;
   text-align: center;
   background-color: var(--color-primary);
@@ -27,9 +27,9 @@
   padding: 0px 20px;
 }
 
-.heading {
+.serviceCard .heading {
   font-size: 15px;
-  padding: 10px 0px 18px 0px;
+  padding: 10px 12px 18px 12px;
   font-family: var(--default-font);
   font-weight: 800;
   line-height: 22px;
@@ -41,7 +41,7 @@
   padding: 10px 12px 18px 12px;
 } */
 
- .readMoreBtn {
+.serviceCard .readMoreBtn {
   font-size: 10px !important;
   border: none;
   background-color: var(--color-greenish) !important ;

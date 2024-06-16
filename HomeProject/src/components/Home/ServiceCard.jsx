@@ -1,19 +1,20 @@
 import React from 'react';
-import styles from './ServiceCard.module.css'; // Import the CSS module for styling
+import style from './ServiceCard.module.css'; // Import the CSS module for styling
 
-const ServiceCard = ({ imageUrl, iconUrl, title }) => {
+const ServiceCard = ({ image, icon, title }) => {
   return (
-    <div className={`${styles.card}`}>
-      <img src={imageUrl} className={`card-img-top ${styles.cardImg}`} alt="..." />
-      <div className={styles.cardBody}>
-        <div className={styles.about}>
-          <img src={iconUrl} className={styles.icon1} alt="" />
-          <button className={`btn ${styles.readMoreBtn}`}>Read More</button>
-          <h5 className={`${styles.cardTitle} ${styles.heading}`}>{title}</h5>
+    <div className={`card ${style.serviceCard}`}>
+      <img src={image} className={`card-img-top ${style.cardImg}`} alt={title} />
+      <div className={`card-body ${style.cardBody}`}>
+        <div className={style.about}>
+          <img src={icon} className={style.icon} alt="Service Icon" />
+          <button className={`btn ${style.readMoreBtn}`}>Read More</button>
+          <h5 className={`card-title ${style.heading}`}>{title}</h5>
         </div>
       </div>
     </div>
   );
 };
+
 
 export default ServiceCard;
