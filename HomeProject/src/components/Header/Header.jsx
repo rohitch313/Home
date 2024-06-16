@@ -61,7 +61,7 @@ const Header = () => {
                       <a className="nav-link active" href="Pages/index.html"   >Home</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link " href="Pages/about.html">About</a>
+                      <a className="nav-link " href="../About/about.jsx">About</a>
                     </li>
 
                     <li className="nav-item dropdown">

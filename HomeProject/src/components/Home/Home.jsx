@@ -7,6 +7,7 @@ import RecentlyCompleted from "./RecentlyCompleted";
 import Section4 from "./Section4";
 import TheBlog from "./TheBlog";
 import style from "../Home/Home.module.css"
+import Blank from "./Blank";
 
 
 const Home = () => {
@@ -20,10 +21,7 @@ const Home = () => {
       <OurTestimonial />
       <FarmBenifit />
       <TheBlog />
-      <div className={`container-fluid ${style.last}`}>
-
-      </div>
-
+      <Blank />
     </>
   )
 }
